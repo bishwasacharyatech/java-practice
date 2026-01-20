@@ -9,8 +9,8 @@ public class loops_A {
 
         // nested for loop
         System.out.println("\nNested For Loop:");
-        for (int i = 1; i <= 20; i++) {
-            for (int j = 1; j <= 30; j++) {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 5; j++) {
                 System.out.println("Outer Loop Iteration: " + i + ", Inner Loop Iteration: " + j);
             }
         }
