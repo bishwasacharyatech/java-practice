@@ -1,4 +1,5 @@
-class test{
+class test{ 
+    
     private String name;
     private int age;
     public String getName(){
