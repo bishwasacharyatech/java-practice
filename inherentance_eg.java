@@ -1,9 +1,9 @@
-class Animal {
+class animal {
     void eat() {
         System.out.println("This animal eats food.");
     }
 }
-class Dog extends Animal {
+class Dog extends animal {
     void bark() {
         System.out.println("The dog barks.");
     }

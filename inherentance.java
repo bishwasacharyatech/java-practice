@@ -1,10 +1,10 @@
 // multilevel inheritance 
-class Animal {
+class Animal_test {
     void eat() {
         System.out.println("eating...");
     }
 }
-class Dog extends Animal {
+class Dog extends Animal_test {
     void bark() {
         System.out.println("barking...");
     }
