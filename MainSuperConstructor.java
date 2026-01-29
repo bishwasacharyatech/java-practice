@@ -15,17 +15,19 @@ class SmartWatch extends Watch {
 
     // Child Constructor
     SmartWatch(String brand, int battery) {
-        // 1. MUST be the first line: Calls the parent constructor
+        // MUST be the first line: This sends the brand up to the Parent
         super(brand); 
         
         this.batteryLevel = battery;
         System.out.println("Smart features loaded. Battery: " + batteryLevel + "%");
     }
 }
-
 public class MainSuperConstructor {
     public static void main(String[] args) {
-        // This will trigger BOTH the Parent and Child constructors automatically
+        // 1. Create the watch
         SmartWatch myWatch = new SmartWatch("Apple", 85);
+
+        // 2. USE the watch (This removes the "unused" warning)
+        System.out.println("The brand of my new watch is: " + myWatch.brand);
     }
 }
