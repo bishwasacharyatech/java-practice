@@ -9,7 +9,7 @@ class Dog extends Animal_test {
         System.out.println("barking...");
     }
 }
-class BabyDog extends Dog {
+class puppy extends Dog {
     void weep() {
         System.out.println("weeping...");
     }
@@ -17,9 +17,9 @@ class BabyDog extends Dog {
 public class inherentance { 
 
     public static void main(String[] args) {
-        BabyDog babyDog = new BabyDog();
-        babyDog.weep();
-        babyDog.bark();
-        babyDog.eat();
+        puppy Dogpuppy = new Dogpuppy();
+        Dogpuppy.weep();
+        Dogpuppy.bark();
+        Dogpuppy.eat();
     }
 }
