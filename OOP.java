@@ -33,7 +33,18 @@ class SmartWatch extends Gadget {
 }
 
 // Another class for Polymorphism
-class AnywhereDoor extends Gadget {++++++
+class Anywhere  Door extends Gadget {
+    AnywhereDoor() {
+        super("Anywhere Door");
+    }
+
+    @Override
+    void activate() {
+        System.out.println("--- " + getName() + " ---");
+        System.out.println("Opening a portal to another dimension!");
+    }
+}
+    
 public class OOP {
     public static void main(String[] args) {
         // Create an array of different Gadgets (Polymorphism in action)
