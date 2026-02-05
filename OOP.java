@@ -33,7 +33,7 @@ class SmartWatch extends Gadget {
 }
 
 // Another class for Polymorphism
-class Anywhere  Door extends Gadget {
+class AnywhereDoor extends Gadget {
     AnywhereDoor() {
         super("Anywhere Door");
     }
