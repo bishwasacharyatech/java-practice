@@ -14,7 +14,7 @@ public class TryCatchException {
 
             // 3. Possible NullPointerException
             String text = null;
-            System.out.println(text.length());
+            System.out.println(t.length());
 
         } catch (ArithmeticException e) {
             System.out.println("Math Error: You can't divide by zero!");
