@@ -4,7 +4,7 @@ class Person{
     }
 }
 //sub class studuent 
-class Student extends Person{
+class aspirant extends Person{
     void message(){
         System.out.println("This is student class");
     }
@@ -18,7 +18,7 @@ class Student extends Person{
 }
 class superMethodExample {
     public static void main(String args[]) {
-        Student obj=new Student();
+        aspirant obj=new aspirant();
         obj.display();
     }
 }

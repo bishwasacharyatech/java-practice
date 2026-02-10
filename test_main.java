@@ -10,7 +10,7 @@ class test {
         h = 7;
     }
 
-    void calculate() {
+    void calculating() {
         volume = l * b * h;
         System.out.println("Volume of cuboid is: " + volume);
     }
@@ -23,6 +23,6 @@ public class test_main {
         // Create object of the test class
         test obj = new test();
         obj.getdata();
-        obj.calculate();
+        obj.calculating();
     }
 }

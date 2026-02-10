@@ -3,8 +3,8 @@ interface Animal_test {
 }
 
 interface Pet {
-    void bark();
-    void play();
+    void Bark();
+    void Play();
 }
 
 class Dog implements Animal_test, Pet {
@@ -12,11 +12,11 @@ class Dog implements Animal_test, Pet {
         System.out.println("Dog eats");
     }
 
-    public void bark() {
+    public void Bark() {
         System.out.println("Dog barks");
     }
 
-    public void play() {
+    public void Play() {
         System.out.println("Dog plays");
     }
 }
@@ -25,7 +25,7 @@ class Dog implements Animal_test, Pet {
 public class multipleInherentance { 
     public static void main(String[] args) {
         Dog dog = new Dog();
-        dog.bark();
+        dog.Bark();
         dog.eat();
     }
 }

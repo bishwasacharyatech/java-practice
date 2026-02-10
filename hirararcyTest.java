@@ -1,15 +1,15 @@
 class Animal{
-    void jump() {
+    void Jump() {
         System.out.println("animal is jumping");
     }
 }
 class Cow extends Animal {
-    void eat() {
+    void Eat() {
         System.out.println("cow is eating grass");
     }
 }
 class Goat extends Animal {
-    void weep() {
+    void Weep() {
         System.out.println("goat is weeping");
     }   
     
@@ -17,10 +17,10 @@ class Goat extends Animal {
 public class hirararcyTest {
     public static void main(String[] args) {
         Cow myCow = new Cow();
-        myCow.eat();
-        myCow.jump();
+        myCow.Eat();
+        myCow.Jump();
         Goat myGoat = new Goat();
-        myGoat.weep();  
-        myGoat.jump();
+        myGoat.Weep();  
+        myGoat.Jump();
     }  
  }

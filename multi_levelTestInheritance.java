@@ -1,23 +1,23 @@
 class  animal{
-    void jump() {
+    void Jump() {
         System.out.println("animal is jumping");
     }
 }
 class cow extends animal {
-    void eat() {
+    void Eat() {
         System.out.println("cow is eating grass");
     }
 }
 class babyCow extends cow {
-    void weep() {
+    void Weep() {
         System.out.println("baby cow is weeping");
     }
 }
 public class multi_levelTestInheritance {
     public static void main(String[] args) {
         babyCow myBabyCow = new babyCow();
-        myBabyCow.weep();
-        myBabyCow.eat();
-        myBabyCow.jump();
+        myBabyCow.Weep();
+        myBabyCow.Eat();
+        myBabyCow.Jump();
     }
 }
