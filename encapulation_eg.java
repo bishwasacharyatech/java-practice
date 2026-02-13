@@ -17,6 +17,8 @@ class test{
     }   
     
 }
+
+
 public class encapulation_eg {
     public static void main(String[] args) {
         test obj = new test();
