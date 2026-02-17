@@ -1,4 +1,4 @@
-import java.io.IOException;
+
 class lab2throwsEx {
     static void withdraw(int amount, int balance) throws ArithmeticException {
         if (amount > balance) {
