@@ -1,4 +1,4 @@
-class ThreadA extends Thread{
+class ThreadtestA extends Thread{
     public void run(){
        for(int i=1;i<=5;i++){
         System.out.println("Running Thread "+i+" from class A");
@@ -9,7 +9,7 @@ class ThreadA extends Thread{
 
     }
 }
-class ThreadB extends Thread{
+class ThreadtestB extends Thread{
     public void run(){
        for(int j=1;j<=5;j++){
         System.out.println("Running Thread "+j+" from class B");
@@ -24,7 +24,7 @@ class ThreadB extends Thread{
          System.out.println("exit from class B");
     }
 }
-class ThreadC extends Thread{
+class ThreadtestC extends Thread{
     public void run(){
        for(int k=1;k<=5;k++){
         System.out.println("Running Thread "+k+" from class C");
@@ -34,9 +34,9 @@ class ThreadC extends Thread{
 }
 public class ThreadStopSleepEx {
     public static void main(String[] args) {
-        new ThreadA().start();
-        new ThreadB().start();  
-        new ThreadC().start();
+        new ThreadtestA().start();
+        new ThreadtestB().start();  
+        new ThreadtestC().start();
 
     }
 }

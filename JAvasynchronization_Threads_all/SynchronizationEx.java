@@ -1,4 +1,4 @@
-package JAvasynchronization_Threads_all;
+package JAVAsynchronization_Threads_all;
 
 class AThread
 {

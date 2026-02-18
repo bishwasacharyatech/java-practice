@@ -1,4 +1,4 @@
-class ThreadA extends Thread {
+class ThreadExA extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++){
             System.out.println("Running  Thread: " + i+" from Class A");
@@ -31,7 +31,7 @@ class ThreadExC extends Thread {
 }
 public class ThreadEx {
     public static void main(String[] args) {
-        new ThreadA().start();
+        new ThreadExA().start();
         new ThreadExB().start();
         new ThreadExC().start();
     }
