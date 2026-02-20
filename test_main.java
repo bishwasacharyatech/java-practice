@@ -10,6 +10,9 @@ class test {
         h = 7;
     }
 
+
+    
+
     void calculating() {
         volume = l * b * h;
         System.out.println("Volume of cuboid is: " + volume);

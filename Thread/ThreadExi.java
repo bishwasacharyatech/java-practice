@@ -20,6 +20,7 @@ class ThreadExB implements Runnable {
     }
 }
 
+
 class ThreadExC implements Runnable {
     public void run() {
         for (int k = 1; k <= 5; k++) {
