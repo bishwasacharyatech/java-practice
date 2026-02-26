@@ -20,6 +20,7 @@ class SmartPhone extends Device {
     public String getInfo() {
         return brand + " " + model;
     }
+    
 
     // 4. POLYMORPHISM: Providing a specific implementation for powerOn
     @Override
