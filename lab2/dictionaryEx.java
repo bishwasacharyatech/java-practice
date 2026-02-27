@@ -7,7 +7,7 @@ public class dictionaryEx {
         geek.put("456", "program");
 
         //get () method
-        System.out.println("Value for key '123': " + geek.get("123"));
+        System.out.println("Value for key '123': " + geek.get("code"));
         System.out.println("Value for key '456': " + geek.get("456"));
 
         //isEmpty() method
