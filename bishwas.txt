@@ -1,1 +1,1 @@
-C
+Hello, this is a test file.This file is created using BufferedWriter.

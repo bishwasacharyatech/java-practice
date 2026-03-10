@@ -5,7 +5,7 @@ public class Bytes_stream {
     public static void main(String[] args) {
         try {
             FileOutputStream fos = new FileOutputStream("bishwas.txt");
-           int content= 1011011;
+           int content= 1011101;
            fos.write((byte) content);
             System.out.println("File writing completed successfully.");
             fos.close();
