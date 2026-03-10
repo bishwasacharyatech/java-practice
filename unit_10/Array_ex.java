@@ -8,6 +8,7 @@ public class Array_ex {
         System.out.println("Enter 5 number");
         for(i=0; i<5; i++){
              a[i]=Scan.nextInt();
+             Scan.close();
 
 
     }
@@ -24,6 +25,7 @@ public class Array_ex {
     System.out.println("main value is : "+max);
 
     System.out.println("main value is : "+min);
+    
 }
 }
 
