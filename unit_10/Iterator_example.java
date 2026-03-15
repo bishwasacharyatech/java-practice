@@ -1,10 +1,7 @@
 package unit_10;
-
 import java.util.HashSet;
 import java.util.Iterator;
-
 public class Iterator_example {
-
     public static void main(String[] args) {
         
         HashSet<String> h =new HashSet<String>();
