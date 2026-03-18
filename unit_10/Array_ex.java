@@ -19,6 +19,7 @@ public class Array_ex {
             if (a[i] < min)
                 min = a[i];
         }
+        
         System.out.println("main value is : " + max);
 
         System.out.println("main value is : " + min);
